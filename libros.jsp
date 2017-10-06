@@ -22,15 +22,15 @@ if(request.getParameter("bConsultar")==null && request.getParameter("bCapturar")
                 <form action='../beans/libros.jsp' method='get' class='form-horizontal text-center'>
                     <div class="form-group row">
                         <label class="control-label col-sm-1" for="titulo">Titulo:</label>
-                        <input class='form-control col-sm-10' id='titulo' type='text' name='titulo' placeholder='Titulo del libro'>
+                        <input class='form-control col-sm-10' id='titulo' type='text' name='titulo' placeholder='Titulo del libro' required>
                     </div>
                     <div class="form-group row">
                         <label class="control-label col-sm-1" for="autor">Autor:</label>
-                        <input class='form-control col-sm-10' id='autor' type='text' name='autor' placeholder='Autor del libro'>
+                        <input class='form-control col-sm-10' id='autor' type='text' name='autor' placeholder='Autor del libro' required>
                     </div>
                     <div class="form-group row">
                         <label class="control-label col-sm-1" for="editorial">Editorial:</label>
-                        <input class='form-control col-sm-10' id='editorial' type='text' name='editorial' placeholder='Editorial del libro'>
+                        <input class='form-control col-sm-10' id='editorial' type='text' name='editorial' placeholder='Editorial del libro' required>
                     </div>
                     <br>
                     <div class="text-center">
